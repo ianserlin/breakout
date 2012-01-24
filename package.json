@@ -1,0 +1,15 @@
+{
+  "name": "free",
+  "description": "Gives you one simple way to write an API",
+  "version": "0.0.1",
+  "author": "Ian Serlin <free-nodejs@ianserlin.com",
+  "repository": "git://github.com/ianserlin/free",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "now": ">= 0.8.1",
+    "express": ">= 2.5.5"
+  },
+  "devDependencies": {
+  },
+  "engines": { "node": ">= 0.4.7" }
+}
