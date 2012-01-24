@@ -1,6 +1,6 @@
 {
   "name": "breakout",
-  "description": "Gives you one simple way to write an API",
+  "description": "Gives you one simple way to write an API exposed over multiple transports",
   "version": "0.0.1",
   "author": "Ian Serlin <breakout@ianserlin.com",
   "repository": "git://github.com/ianserlin/breakout",
