@@ -8,7 +8,7 @@ Out of the Box
 
 Out of the box you get support for an http json api via Express and a NowJS api. In your configuration simply pass in your instances for each, e.g.
 
-<code><pre>
+<pre><code>
 var express = require('express')
   , routes = require('./routes')
 var app = module.exports = express.createServer();
@@ -18,12 +18,12 @@ var everyone = now.initialize(app);
 
 var breakout = require('breakout');
 breakout.use('http', app).use('now', everyone);
-</pre></code>
+</code></pre>
 
 Defining You API
 ----------------
 
-<code><pre>
+<pre><code>
 breakout.map('Fruit.read', function( args, respond ){
   console.log( args );
   respond( { donkey: true } );
@@ -33,7 +33,7 @@ breakout.map('Fruit.save', function( args, respond ){
   console.log( args );
   respond( { donkey: false } );
 });
-</pre></code>
+</code></pre>
 
 
 Server-side Handler Signature
