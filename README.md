@@ -51,3 +51,4 @@ Server-side Handler Signature
 TODO
 ----
 * be able to handle http route params
+* ability to generate resourceful routes for models
